@@ -1,0 +1,36 @@
+{
+  "name": "sk11st",
+  "version": "1.0.0",
+  "description": "Javascript 11st API package, Support Node.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkjang/sk11st.git"
+  },
+  "keywords": [
+    "sk11st",
+    "dart",
+    "11st",
+    "11번가",
+    "shop",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hkjang/sk11st#readme",
+  "bugs": {
+    "url": "https://github.com/hkjang/sk11st/issues"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "iconv-lite": "^0.6.2",
+    "xml-js": "^1.6.11"
+  }
+}
