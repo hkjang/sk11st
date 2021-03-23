@@ -9,13 +9,13 @@ var apikey = 'API_KEY';
 // }
 
 // sk11st.product.categoryByNum(apikey, options).then(function (res){
-//     const decoded = iconv.decode(res.data,'EUC-KR');
+//     var decoded = iconv.decode(res.data,'EUC-KR');
 //     const results = convert.xml2json(decoded, {compact: true, spaces: 4});
 //     console.log(results);
 // });
 //
 // sk11st.product.category(apikey, options).then(function (res){
-//     const decoded = iconv.decode(res.data,'EUC-KR');
+//     var decoded = iconv.decode(res.data,'EUC-KR');
 //     var results = convert.xml2json(decoded, {compact: true, spaces: 4});
 //     console.log(results);
 // });
@@ -26,7 +26,7 @@ var apikey = 'API_KEY';
 // }
 //
 // sk11st.product.search(apikey, options).then(function (res){
-//     const decoded = iconv.decode(res.data,'EUC-KR');
+//     var decoded = iconv.decode(res.data,'EUC-KR');
 //     var results = convert.xml2json(decoded, {compact: true, spaces: 4});
 //     console.log(results);
 // });
@@ -39,7 +39,7 @@ var apikey = 'API_KEY';
 // }
 //
 // sk11st.product.catetorySearch(apikey, options).then(function (res){
-//     const decoded = iconv.decode(res.data,'EUC-KR');
+//     var decoded = iconv.decode(res.data,'EUC-KR');
 //     var results = convert.xml2json(decoded, {compact: true, spaces: 4});
 //     console.log(results);
 // });
@@ -49,7 +49,7 @@ var apikey = 'API_KEY';
 // }
 //
 // sk11st.product.catetoryInfo(apikey, options).then(function (res){
-//     const decoded = iconv.decode(res.data,'EUC-KR');
+//     var decoded = iconv.decode(res.data,'EUC-KR');
 //     var results = convert.xml2json(decoded, {compact: true, spaces: 4});
 //     console.log(results);
 // });
@@ -59,7 +59,7 @@ var options = {
 }
 
 sk11st.product.productImage(apikey, options).then(function (res){
-    const decoded = iconv.decode(res.data,'EUC-KR');
+    var decoded = iconv.decode(res.data,'EUC-KR');
     var results = convert.xml2json(decoded, {compact: true, spaces: 4});
     console.log(results);
 });

@@ -41,7 +41,7 @@ var options = {
     'keyword' : '세탁기'
 }
 sk11st.product.search(apikey, options).then(function (res){
-    const decoded = iconv.decode(res.data,'EUC-KR');
+    var decoded = iconv.decode(res.data,'EUC-KR');
     var results = convert.xml2json(decoded, {compact: true, spaces: 4});
     console.log(results);
 });
