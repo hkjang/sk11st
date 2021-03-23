@@ -10,7 +10,7 @@ var apikey = 'API_KEY';
 
 // sk11st.product.categoryByNum(apikey, options).then(function (res){
 //     var decoded = iconv.decode(res.data,'EUC-KR');
-//     const results = convert.xml2json(decoded, {compact: true, spaces: 4});
+//     var results = convert.xml2json(decoded, {compact: true, spaces: 4});
 //     console.log(results);
 // });
 //
